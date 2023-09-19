@@ -1,0 +1,22 @@
+{
+  "name": "js_model",
+  "version": "1.0.0",
+  "description": "This project contains JS blockchain model.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/abhilov23/Basic-Blockchain-models"
+  },
+  "keywords": [
+    "blockchain",
+    "Pow"
+  ],
+  "author": "Abhilov",
+  "license": "ISC",
+  "dependencies": {
+    "sha256": "^0.2.0"
+  }
+}
