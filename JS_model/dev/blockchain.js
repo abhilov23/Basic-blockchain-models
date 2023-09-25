@@ -4,7 +4,7 @@
         this.chain = [];
         this.pendingTransactions = [];
         
-        this.createNewBlock(100, '0', '0');
+        this.createNewBlock(100, '0', '0'); //genesis block
 
     }
     Blockchain.prototype.createNewBlock = function (nonce, previousBlockHash, hash){
@@ -28,7 +28,7 @@
 
     Blockchain.prototype.createNewTransaction = function(amount, sender, recipient){
      const newTransaction = {
-        amount: amount,
+        amount: amount, //for creating new transactions 
         sender: sender,
         recipient: recipient
      };
